@@ -3,7 +3,7 @@
 
 local _M = {}
 
-_M.nchan = require ('nchan.connect')
+_M.nchan = require ('nchan')
 
 
 function _M.publish(message) 
