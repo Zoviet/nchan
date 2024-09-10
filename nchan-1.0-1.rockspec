@@ -23,7 +23,7 @@ external_dependencies = {
 build = {
    type = "builtin",
    modules = {
-     ["nchan.nchan"] = "nchan/nchan.lua",
+     ["nchan.connect"] = "nchan/connect.lua",
      ["nchan.channel"] = "nchan/channel.lua",
      ["nchan.group"] = "nchan/group.lua"
    }
