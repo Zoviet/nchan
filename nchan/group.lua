@@ -3,7 +3,7 @@
 
 local _M = {}
 
-_M.nchan = require ('nchan.nchan')
+_M.nchan = require ('nchan.connect')
 
 _M.nchan.codes = {
 	[200] = 'SUCCESS (group existed)',
