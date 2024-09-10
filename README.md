@@ -22,6 +22,36 @@ result,msg = channel.publish('test')
 
 ```
 
+
+***Connect usage Basic auth***
+
+```
+	local channel = require('nchan.channel')
+
+	channel.nchan.host = 'http://localhost'
+	channel.nchan.endpoint = 'pub'
+	
+	channel.nchan.login = 'test'
+	channel.nchan.password = 'test'
+
+	result,msg = channel.publish('test')
+
+```
+
+***Connect usage Bearer auth***
+
+```
+	local channel = require('nchan.channel')
+
+	channel.nchan.host = 'http://localhost'
+	channel.nchan.endpoint = 'pub'
+	
+	channel.nchan.token = 'token'
+
+	result,msg = channel.publish('test')
+
+```
+
 ***Delete channel***
 
 ```
