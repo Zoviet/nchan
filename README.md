@@ -1,5 +1,11 @@
 # Simple lua nchan publisher
 
+## Install
+
+```
+luarocks install nchan
+```
+
 ## Usage
 
 ### Channels
