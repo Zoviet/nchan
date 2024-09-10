@@ -2,6 +2,7 @@ package = "Nchan"
 version = "1.0-1"
 source = {
    url = "git://github.com/Zoviet/nchan.git",
+   tag = "v1.0-1"
 }
 description = {
    summary = "Simple Lua nchan publisher and group manager",
@@ -23,7 +24,7 @@ external_dependencies = {
 build = {
    type = "builtin",
    modules = {
-     ["nchan"] = "nchan/nchan.lua",
+     ["nchan.nchan"] = "nchan/nchan.lua",
      ["nchan.channel"] = "nchan/channel.lua",
      ["nchan.group"] = "nchan/group.lua"
    }
