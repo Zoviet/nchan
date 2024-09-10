@@ -23,7 +23,7 @@ result,msg = channel.publish('test')
 ```
 
 
-***Connect usage Basic auth***
+***Connect with Basic auth***
 
 ```
 	local channel = require('nchan.channel')
@@ -38,7 +38,7 @@ result,msg = channel.publish('test')
 
 ```
 
-***Connect usage Bearer auth***
+***Connect with Bearer auth***
 
 ```
 	local channel = require('nchan.channel')
