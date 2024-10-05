@@ -1,6 +1,8 @@
 
 -- Simple nchan lua client
 
+-- Remove json4lua, add cjson
+
 local json = require ('cjson')
 local http = require('socket.http')
 local mime = require("mime")
