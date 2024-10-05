@@ -1,7 +1,7 @@
 
 -- Simple nchan lua client
 
-local json = require ('json')
+local json = require ('cjson')
 local http = require('socket.http')
 local mime = require("mime")
 
