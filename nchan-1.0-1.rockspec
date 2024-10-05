@@ -1,5 +1,5 @@
 package = "Nchan"
-version = "1.0-1"
+version = "1.0-2"
 source = {
    url = "git://github.com/Zoviet/nchan.git",
    tag = "v1.0-1"
@@ -15,7 +15,7 @@ description = {
 dependencies = {
    "lua >= 5.1, < 5.4",
    "luasocket >= 2.0",
-   "json4lua >= 0.1",
+   "lua-cjson >= 2.0",
    "mimetypes >= 1.0"
 }
 external_dependencies = {
