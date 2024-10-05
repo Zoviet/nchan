@@ -1,11 +1,10 @@
 
 -- Simple nchan lua client
 
--- Remove json4lua, add cjson
-
 local json = require ('cjson')
 local http = require('socket.http')
-local mime = require("mime")
+local mime = require('mime')
+local ltn12 = require('ltn12')
 
 http.TIMEOUT = 15
 

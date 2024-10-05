@@ -2,7 +2,7 @@ package = "Nchan"
 version = "1.0-2"
 source = {
    url = "git://github.com/Zoviet/nchan.git",
-   tag = "v1.0-2"
+   tag = "v1.0-1"
 }
 description = {
    summary = "Simple Lua nchan publisher and group manager",
